@@ -1,5 +1,5 @@
 # TP03
-L'Implémentatio de concept de point géométrique dans le plan (x,y)
+Implémentation de concept, point géométrique dans le plan (x,y)
 
 -Constructeur(s)
 
