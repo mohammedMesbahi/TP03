@@ -43,11 +43,11 @@ public class Point
         this.x += x;
         this.y += y;
     }
-    public bool static linearite(Point a, Point b, Point b)
+    public bool static linearite(Point a, Point b, Point c)
     {
         Victor AB = new Victor(a, b);
-        victor AC = new victor(a, c);
-        return determinant(AB, AC);
+        Victor AC = new Victor(a, c);
+        return Victor.determinant(AB, AC);
     }
-    
+
 }
