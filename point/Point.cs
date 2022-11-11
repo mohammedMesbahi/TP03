@@ -2,12 +2,14 @@
 using Victor;
 public class Point
 {
-    private int x;
-    private int y;
+    private float x;
+    private float y;
     public Point()
     {
+        this.x = 0;
+        this.y = 0;
     }
-    public Point(int x, int y)
+    public Point(float x, float y)
     {
         this.x = x;
         this.y = y;
@@ -36,18 +38,18 @@ public class Point
     }
     public bool eqaulsTo(ref Point point)
     {
-        return this.x == point.x && this.y == point.y;
+        return (this.x == point.x) && (this.y == point.y);
     }
-    public void Translation(int x = 0, int y = 0)
+    public Point Translation(float x = 0, float y = 0)
     {
         this.x += x;
         this.y += y;
+        return this;
     }
-    public bool static linearite(Point a, Point b, Point c)
+    public bool static linearite(Point b, Point c)
     {
-        Victor AB = new Victor(a, b);
-        Victor AC = new Victor(a, c);
-        return Victor.determinant(AB, AC);
+        float determinant = (b.getX - this.getX) * (c.getY - this.getY) - (c.getX - this.getX) * (b.getY - this.getY);
+        return determinant == 0;
     }
 
 }
