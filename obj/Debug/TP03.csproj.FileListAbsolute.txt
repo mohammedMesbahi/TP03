@@ -1,0 +1,7 @@
+C:\Users\mesba\source\repos\TP03\bin\Debug\TP03.exe.config
+C:\Users\mesba\source\repos\TP03\bin\Debug\TP03.exe
+C:\Users\mesba\source\repos\TP03\bin\Debug\TP03.pdb
+C:\Users\mesba\source\repos\TP03\obj\Debug\TP03.csproj.AssemblyReference.cache
+C:\Users\mesba\source\repos\TP03\obj\Debug\TP03.csproj.CoreCompileInputs.cache
+C:\Users\mesba\source\repos\TP03\obj\Debug\TP03.exe
+C:\Users\mesba\source\repos\TP03\obj\Debug\TP03.pdb
